@@ -1,0 +1,49 @@
+{
+  "name": "font-scraper",
+  "version": "1.0.0",
+  "description": "Font usage verification and analytics tool with historical analysis and bot filtering",
+  "main": "FontScraper.js",
+  "bin": {
+    "font-scraper": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "example": "node example.js",
+    "audit": "node cli.js audit",
+    "scan": "node cli.js scan",
+    "history": "node cli.js history",
+    "filter-bots": "node cli.js filter-bots"
+  },
+  "keywords": [
+    "font",
+    "scraper",
+    "audit",
+    "analytics",
+    "monotype",
+    "web-archive",
+    "wayback-machine",
+    "bot-filtering",
+    "font-verification",
+    "licensing"
+  ],
+  "author": "Font Scraper Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/font-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/font-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/font-scraper#readme"
+}
